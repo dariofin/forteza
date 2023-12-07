@@ -76,6 +76,7 @@ path.flecha-abajo {
 	transition: scale 0.1s;
 }
 button#flecha-abajo {
+	display: none;
 	padding: 10px;
 	border: none;
 	background: none;
