@@ -2,9 +2,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
-body {
+#contenedor-principal {
 	display: flex;
 	height: 100vh;
 	flex-direction: column;
@@ -13,7 +14,8 @@ body {
 	background-image: url(/src/fondo-paisaje-pies.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: 50% 0%;
+	transition: background 3s ease-out;
 }
 
 /* Clases generales */
@@ -37,7 +39,7 @@ body {
 }
 #your-lifestyle {
 	width: 180px;
-	padding: 15px 0;
+	padding: 10px 0;
 }
 path.st0 {
 	fill: rgb(243, 240, 240);
@@ -76,7 +78,6 @@ path.flecha-abajo {
 	transition: scale 0.1s;
 }
 button#flecha-abajo {
-	display: none;
 	padding: 10px;
 	border: none;
 	background: none;
@@ -86,4 +87,12 @@ button#flecha-abajo {
 
 button#flecha-abajo:hover {
 	translate: 0 -15px;
+}
+
+.en-construccion {
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: rgba(197, 197, 197, 0.9);
+	/* border: solid 1px #aaa; */
+	text-transform: uppercase;
 }

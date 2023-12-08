@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 141.7"><defs><style>.cls-1{fill:#222221;}.cls-1,.cls-2{stroke-width:0px;}.cls-2{fill:#fff;}</style></defs><rect class="cls-2" x=".9" y=".9" width="139.9" height="139.9" rx="9.2" ry="9.2"/><polygon class="cls-1" points="97.8 65 89.7 81.6 75.8 42.8 65.6 42.8 51.7 81.6 43.5 65 37.6 65 21.7 103.7 70.7 103.7 119.6 103.7 103.8 65 97.8 65"/><path class="cls-1" d="m13.9,103.7c-1.5-5.2-2.3-10.7-2.3-16.4,0-32.6,26.5-59.1,59.1-59.1s59.1,26.5,59.1,59.1-.8,11.2-2.3,16.4h6.6c1.4-5.2,2.1-10.7,2.1-16.4,0-36.1-29.4-65.5-65.5-65.5S5.2,51.2,5.2,87.3s.7,11.1,2.1,16.4h6.6Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 141.7 141.7" style="enable-background:new 0 0 141.7 141.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E15200;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M119.5,140.8l-97.3,0C9.9,140.8,0,130.9,0,118.6l0-95.5C0,10.8,9.9,0.9,22.2,0.9l97.3,0
+		c12.3,0,22.2,9.9,22.2,22.2l0,95.5C141.7,130.9,131.8,140.8,119.5,140.8z"/>
+	<g>
+		<g>
+			<polygon class="st1" points="97.2,69 89.3,85.2 75.8,47.5 65.9,47.5 52.4,85.2 44.5,69 38.8,69 23.4,106.6 70.8,106.6 
+				118.3,106.6 102.9,69 			"/>
+			<path class="st1" d="M15.7,106.6c-1.5-5.1-2.3-10.4-2.3-15.9c0-31.6,25.7-57.4,57.4-57.4s57.4,25.7,57.4,57.4
+				c0,5.5-0.8,10.8-2.3,15.9h6.4c1.3-5.1,2-10.4,2-15.9c0-35-28.5-63.5-63.5-63.5c-35,0-63.5,28.5-63.5,63.5c0,5.5,0.7,10.8,2,15.9
+				H15.7z"/>
+		</g>
+	</g>
+</g>
+</svg>
