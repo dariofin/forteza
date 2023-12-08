@@ -1,31 +1,26 @@
+/* Clases generales */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-
-#contenedor-principal {
-	display: flex;
-	height: 100vh;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	background-image: url(/src/fondo-paisaje-pies.webp);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 0%;
-	transition: background 3s ease-out;
-}
-
-/* Clases generales */
 .hidden {
 	display: none;
 }
 
-/* Cabezal  */
+/*  Forteza web elements */
 
-#logo-central-div {
+#main-container {
+	display: flex;
+	height: 100dvh;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+/* Cabezal  */
+#logo-header {
 	width: 90%;
 	display: flex;
 	flex-direction: column;
@@ -61,10 +56,10 @@ path.st0 {
 	width: 50px;
 	margin-bottom: 20px;
 	background: none;
-	transition: scale 0.3s;
+	transition: all 0.3s;
 }
 
-path.flecha-abajo {
+path.arrow-down-btn {
 	fill: #eaeaea;
 	stroke-width: 0px;
 	background: none;
@@ -77,22 +72,34 @@ path.flecha-abajo {
 	scale: 1.1;
 	transition: scale 0.1s;
 }
-button#flecha-abajo {
+button#arrow-down-btn {
 	padding: 10px;
 	border: none;
 	background: none;
 	cursor: pointer;
-	transition: translate 0.3s;
 }
 
 button#flecha-abajo:hover {
 	translate: 0 -15px;
 }
 
-.en-construccion {
+/* .en-construccion {
 	padding: 10px 15px;
 	margin: 10px;
 	background-color: rgba(197, 197, 197, 0.9);
-	/* border: solid 1px #aaa; */
 	text-transform: uppercase;
+} */
+
+#bkground-img {
+	width: 100%;
+	height: 100vh;
+	z-index: -5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(/src/fondo-paisaje-pies.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 0%;
+	transition: all 3s ease-out;
 }
